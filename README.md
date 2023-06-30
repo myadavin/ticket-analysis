@@ -2,7 +2,6 @@
 
 In this fast-moving world, we have to constantly look for opportunities to optimize and improve IT operations.
 AIOps will greatly help to classify your ticket data into buckets and then looking towards the biggest bucket data, you can think of the next set of automation or self-services portal/tool or improve documentation so that your end users/developers don't have to open tickets.
-https://yadavmukund.blogspot.com/2023/06/aiops-for-tenant-and-platform-operations.html 
 In this repo, you will find 2 files
 ## Ticket-Bucket.py:
 In this example, we assume you have an Excel file named "tickets.xlsx" with a column called "Ticket Subject" containing the ticket subjects. We define the categories and their corresponding keywords in the categories dictionary.
@@ -17,3 +16,5 @@ A Linear Support Vector Classifier (LinearSVC) model is trained on the vectorize
 To categorize new ticket subjects, you can use the trained model and vectorizer. After vectorizing the new ticket subjects, the model predicts the categories for each subject. The predicted categories are then printed.
 Finally, the trained model and vectorizer are saved using the joblib library for future use.
 Note that this is a basic example, and you can further enhance the model's performance by exploring other algorithms, performing hyperparameter tuning, or using more advanced techniques like deep learning-based models.
+## Blog
+For more details about AIOps, please visit my blog https://yadavmukund.blogspot.com/2023/06/aiops-for-tenant-and-platform-operations.html 
