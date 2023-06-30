@@ -2,6 +2,7 @@
 
 In this fast-moving world, we have to constantly look for opportunities to optimize and improve IT operations.
 AIOps will greatly help to classify your ticket data into buckets and then looking towards the biggest bucket data, you can think of the next set of automation or self-services portal/tool or improve documentation so that your end users/developers don't have to open tickets.
+https://yadavmukund.blogspot.com/2023/06/aiops-for-tenant-and-platform-operations.html 
 In this repo, you will find 2 files
 ## Ticket-Bucket.py:
 In this example, we assume you have an Excel file named "tickets.xlsx" with a column called "Ticket Subject" containing the ticket subjects. We define the categories and their corresponding keywords in the categories dictionary.
