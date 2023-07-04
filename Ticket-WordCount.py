@@ -3,8 +3,7 @@ from collections import Counter
 from openpyxl import Workbook
 
 # Read the XLS file
-#workbook = xlrd.open_workbook('your_file.xls')
-workbook = xlrd.open_workbook('/Users/myadav/Documents/myadav/home/VMWare/Horizon/My_Files/Download/xls/cdto-map-ticket-data.xls')
+workbook = xlrd.open_workbook('your_file.xls')
 sheet = workbook.sheet_by_index(0)  # Assuming data is in the first sheet
 
 # Extract text from cells and concatenate into a single string
