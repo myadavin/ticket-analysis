@@ -2,9 +2,11 @@
 
 In this fast-moving world, we have to constantly look for opportunities to optimize and improve IT operations.
 AIOps will greatly help to classify your ticket data into buckets and then looking towards the biggest bucket data, you can think of the next set of automation or self-services portal/tool or improve documentation so that your end users/developers don't have to open tickets.
-In this repo, you will find 2 files
+In this repo, you will find 3 files
+## Ticket-WordCount.py:
+In this program, you can pass the ticket subject data using "your_file.xls" and the program gives output in the form of an xls file, with maximum word count on top of the file "word_count_output.xls". After opening this file, you can remove unwanted common English words and keep the keywords. This will give you an idea of what kind of tickets we are getting in general.
 ## Ticket-Bucket.py:
-In this example, we assume you have an Excel file named "tickets.xlsx" with a column called "Ticket Subject" containing the ticket subjects. We define the categories and their corresponding keywords in the categories dictionary.
+In this Program, we assume you have an Excel file named "tickets.xlsx" with a column called "Ticket Subject" containing the ticket subjects. We define the categories and their corresponding keywords in the categories dictionary.
 The program then loads the Excel file into a DataFrame using the read_excel() function from the pandas library. It creates a new column called "Category" to store the assigned category for each ticket.
 Next, it iterates over each ticket subject and checks if any of the keywords in the categories dictionary are present in the subject. If a match is found, the program assigns the corresponding category to the ticket.
 Finally, the updated DataFrame is saved to a new Excel file named "categorized_tickets.xlsx" using the to_excel() function.
