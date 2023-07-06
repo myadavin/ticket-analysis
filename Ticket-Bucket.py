@@ -1,3 +1,14 @@
+#===========================================================
+# Objective: Categorise the tickets using keywords
+# This is a generic program to analyze any Ticket data set 
+#===========================================================
+# Version | Name           | Change details   | Date
+#-----------------------------------------------------------
+# 1.0     | Mukund Yadav   | Baseline version | 11-Apr-2022
+#         |                |                  |
+#         |                |                  |
+#         |                |                  |
+#===========================================================
 import pandas as pd
 
 # Load the Excel file into a DataFrame
