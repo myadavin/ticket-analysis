@@ -1,3 +1,14 @@
+#===========================================================
+# Objective: Word count in Ticket subjects
+# This is a generic program to analyze any Ticket data set 
+#===========================================================
+# Version | Name           | Change details   | Date
+#-----------------------------------------------------------
+# 1.0     | Mukund Yadav   | Baseline version | 21-Mar-2021
+#         |                |                  |
+#         |                |                  |
+#         |                |                  |
+#===========================================================
 import xlrd
 from collections import Counter
 from openpyxl import Workbook
