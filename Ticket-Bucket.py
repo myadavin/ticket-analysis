@@ -50,3 +50,4 @@ for index, row in data.iterrows():
 
 # Save the updated DataFrame to a new Excel file
 data.to_excel("categorized_tickets.xlsx", index=False)
+print("Ticket Category output written to categorized_tickets.xlsx")
