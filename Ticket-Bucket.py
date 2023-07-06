@@ -15,11 +15,25 @@ import pandas as pd
 data = pd.read_excel("tickets.xlsx")
 
 # Define your categories and corresponding keywords
+# Add more categories and keywords as needed
 categories = {
+    "Alert": ["alert"],
+    "Access": ["access"],
+    "Deploy": ["deploy", "sync"],
+    "Patch": ["patch"],
+    "Upgrade": ["upgrade"],
+    "Log": ["log"],
+    "Bounce": ["restart", "bounce", "stop", "start", "reboot", "shutdown", "health", "maintenance", "itcm", "phc", "fhc"],
+    "Refresh": ["refresh"],
+    "Storage": ["storage", "disk", "size", "space"],
+    "Job": ["job"],
+    "Restore": ["restore"],
+    "Password": ["password"],
+    "Certificate": ["cert"],
+    "Vulnerabilities": ["vulnerabilities", "advisory", "security", "vuln"],
     "Category 1": ["keyword1", "keyword2", "keyword3"],
     "Category 2": ["keyword4", "keyword5"],
-    "Category 3": ["keyword6", "keyword7", "keyword8"],
-    # Add more categories and keywords as needed
+    "Category 3": ["keyword6", "keyword7", "keyword8"]
 }
 
 # Create a new column for the category
