@@ -1,3 +1,14 @@
+#===========================================================
+# Objective: Machine Learning program to classify tickets
+# This is a generic program to analyze any Ticket data set 
+#===========================================================
+# Version | Name           | Change details   | Date
+#-----------------------------------------------------------
+# 1.0     | Mukund Yadav   | Baseline version | 01-June-2023
+#         |                |                  |
+#         |                |                  |
+#         |                |                  |
+#===========================================================
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import LinearSVC
