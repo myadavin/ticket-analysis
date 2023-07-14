@@ -30,7 +30,7 @@ categories = {
     "Restore": ["restore"],
     "Password": ["password"],
     "Certificate": ["cert"],
-    "Vulnerabilities": ["vulnerabilities", "advisory", "security", "vuln"],
+    "Vulnerabilities": ["vulnerabilities", "advisory", "security", "vuln", "log4j"],
     "Category 1": ["keyword1", "keyword2", "keyword3"],
     "Category 2": ["keyword4", "keyword5"],
     "Category 3": ["keyword6", "keyword7", "keyword8"]
